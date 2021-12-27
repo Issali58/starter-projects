@@ -1,0 +1,498 @@
+
+/* styling the navigation bar */
+/* body{
+  background-image: url('TGK_headerDesktop.jpg');
+  background-size:cover;
+  border:
+}
+
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400&display=swap'); */
+*{
+  margin:0px;
+  padding:0px;
+  /* box-sizing:border-box; */
+  /* font-family:"Kanit"; */
+
+}
+
+body{
+  height:100%;
+  width: auto;
+}
+table{
+  width: 80%;
+  border-collapse: collapse;
+  font-family:arial;
+}
+.logo-image{
+  width:20px;
+  height:20px;
+}
+ #tab3.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+#tab3{
+  color: #00A36C;
+  margin-left: 50px;
+  width:50%;
+  margin: 0 10px;
+  border-collapse: collapse;
+  padding-top: 350px;
+  padding-bottom: 90px;
+}
+#tab2{
+  margin:200px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  color: #00A36C;
+  font-family: Arial;
+}
+#div4{
+  color:black;
+}
+#div3{
+margin-left: 150px;
+}
+#tab3 a:hover{
+  color:white;
+  text-decoration: none;
+}
+ #tab3 a{
+  text-decoration: none;
+  color: #00A36C;
+}
+td,th{
+  border-style: none;
+  text-align: left;
+  padding-bottom: 1px;
+}
+p{
+  font-size: 40px;
+  color:white;
+}
+.split{
+  height: 30%;
+  width: 100%;
+  position: fixed;
+}
+div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+
+}
+.topnav{
+  overflow: hidden;
+  /* background-color:black; */
+  background: rgba(0,0,0,0.5);
+
+  padding-left:50px;
+}
+#kl{
+  padding-left: 370px;
+}
+/* styling the links on the nav bar */
+.topnav a {
+
+  float: left;
+  padding-left: 100px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 60px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.topnav a:hover{
+  color:#00A36C;
+
+}
+/* add color to active tab  */
+.topnav a.active{
+  color:#00A36C;
+}
+/* putting search container */
+.topnav .search-container{
+  float:right;
+  padding: 60px 10px;
+}
+.topnav input[type=text]{
+  padding:15px;
+  font-size:15px;
+}
+/* setting the button for search */
+.topnav .search-container button{
+  float:right;
+  background:none;
+  cursor:pointer;
+}
+.topnav .search-container button:hover{
+  color: green;
+}
+/* header{ */
+  /* background-image: url('TGK_headerDesktop.jpg');; */
+  /* background-size: cover; */
+  /* min-height:150px; */
+/* } */
+main{
+  width:100%;
+    background-image: url('TGK_headerDesktop.jpg');
+    background-position: center;
+    background-size:cover;
+    /* background-color: black; */
+    min-height:700px;
+
+    /* padding-top: 280px; */
+    padding-left: 150px;
+}
+td{
+  color:white;
+}
+th {
+  color:#00A36C;
+}
+tr a{
+  color: white;
+  text-decoration: none;
+}
+tr a:hover{
+  color:#00A36C;
+}
+
+
+footer{
+    color: black;
+    padding-top: 80px;
+    padding-left: 150px;
+    font-family: Arial;
+    font-size: 17px;
+    background-color: #00A36C;
+    min-height:350px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px;
+    bottom: 0;
+    text-decoration: none;
+}
+footer a{
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration:underline;
+  text-decoration-color: black;
+}
+section{
+  padding-top: 80px;
+  padding-left: 150px;
+  font-family: Arial;
+  background-color:	#101010;
+  min-height: 1000px;
+  position: relative;
+  width: 100%;
+  /* margin-bottom: 0px; */
+  /* bottom: 0; */
+  text-decoration: none;
+  /* position: relative;
+  width: 100%;
+  margin-right: auto;
+  right: auto;
+  background-color: black;
+  min-height: 2700px; */
+
+}
+h1{
+  padding-top: 150px;
+  color:white;
+  font-family: Arial;
+  font-size: 50px;
+  font-style: oblique;
+
+}
+h2{
+  padding-left: 150px;
+  color:#00A36C;
+  font-family: Arial;
+  font-size: 50px;
+}
+.wrapper{
+  display: grid;
+  column-gap: normal;
+  border-style: none;
+  outline-color: green;
+
+  grid-template-columns: 2fr 1fr 1fr ;
+  grid-auto-rows: 500px;
+
+}
+#box1{
+ display: grid;
+ padding-top: 35px;
+ /* padding: 10px; */
+  /* z-index: 2; */
+  background-color: #000000;
+  grid-column: 1/span 2;
+  grid-row: 1/span 2;
+  margin-right: 100px;
+  margin-left: 0px;
+  margin-bottom: 330px;
+}
+#box2{
+  display: grid;
+  background-color:#303030;
+  background-position: center;
+  background-size:cover;
+  box-shadow: 5px 10px 	#282828;
+  grid-column: 2/span 3;
+  align-self:stretch;
+  margin-top: 30px;
+  margin-right: 150px;
+  margin-left: 110px;
+  min-height: 700px;
+  grid-row: 1;
+  z-index: 1;
+}
+#box3{
+
+  display: grid;
+  background-image: url('unity_newLink_4desktopLarge.jpg');
+  background-position: center;
+  background-size:cover;
+  border-style: none;
+  grid-column: 1/span 2;
+  grid-row: 2/span 1;
+  min-height: 620px;
+  margin-right: 100px;
+  margin-top: 230px;
+  box-shadow: 5;
+}
+#box4{
+  display: grid;
+  z-index: 2;
+  background-image: url("sbt_newLinkTile_desktopLarge.jpg");
+  background-position: center;
+  background-size:cover;
+  box-shadow: 5px 10px 5px #202020;
+  border-style: none;
+  grid-column: 2/span 3;
+  grid-row: 2/span 2;
+  margin-top: 330px;
+  margin-left: -200px;
+  z-index:2;
+  box-shadow: 55px;
+}
+  #box5{
+  margin-left: 60px;
+  display: grid;
+  background-image:url("LOTR1_newLinkTile_desktopSmall.jpg");
+  background-position: center;
+  background-size:cover;
+  border-style: none;
+  box-shadow: 5px 10px 5px #202020;
+  grid-column: 1/span 1;
+  grid-row: 3/span 2;
+  margin-bottom: 100px;
+  margin-top: 450px;
+  margin-right: 145px;
+  min-height: 650px;
+  z-index: 1;
+
+
+}
+  #box6{
+  display: grid;
+  min-height: 630px;
+  background-image: url("apex_newLinkTile_desktopLarge.jpg");
+  background-position: center;
+  background-size:cover;
+  background-color:green;
+  border-style: none;
+  grid-column: 2/span 3;
+  grid-row: 3/span 2;
+  margin-top: 550px;
+  margin-left: -200px;
+}
+#div6{
+  padding-top: 170px;
+  margin-left: 1px;
+}
+#div6 h2{
+  font-size: 20px;
+  color: white;
+  margin-left: 0px;
+}
+#div6 p{
+  font-size: 30px;
+  color: white;
+  margin-left: 150px;
+}
+#div6 h4{
+  color: white;
+  margin-left: 150px;
+}
+#div6 a{
+  text-decoration: none;
+  color: white;
+}
+#div6 a:hover {
+  color: #00A36C;
+}
+##box1:hover {
+  color: #00A36C;
+}
+#div7{
+  padding-top: 10px;
+  margin-left: 1px;
+}
+#div7 h2{
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  padding-left: 30px;
+}
+#div7 p{
+  font-size: 30px;
+  color: white;
+  margin-left: 40px;
+}
+#div7 h4{
+  color: white;
+  margin-left: 40px;
+}
+#div7 a{
+  text-decoration: none;
+  color: white;
+}
+#div7 a:hover {
+  color: #00A36C;
+}
+#div8{
+  background-image: url("photo-ceb16.jpg");
+  background-position: center;
+  min-height: 350px;
+  margin-left: 40px;
+  margin-right: 70px;
+}
+#div9{
+  padding-top: 90px;
+
+}
+#div9 h2{
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+  padding-left: 150px;
+}
+#div9 p{
+  font-size: 30px;
+  color: white;
+  margin-left: 40px;
+  padding-left: 150px;
+}
+#div9 h4{
+  color: white;
+  margin-left: 43px;
+  padding-left: 150px;
+}
+#div9 a{
+  text-decoration: none;
+  color: white;
+}
+#div9 a:hover {
+  color: #00A36C;
+}
+#div10{
+  padding-top: 130px;
+
+}
+#div10 h2{
+  font-size: 20px;
+  color: white;
+  padding-left: 500px;
+}
+#div10 p{
+  font-size: 30px;
+  color: white;
+  padding-left: 500px;
+}
+#div10 h4{
+  color: white;
+  padding-left: 500px;
+}
+#div10 h5{
+  font-size: 20px;
+  color: white;
+  padding-left: 500px;
+}
+#div10 a{
+  text-decoration: none;
+  color: white;
+}
+#div10 a:hover {
+  color: #00A36C;
+}
+#div11{
+  padding-top: 150px;
+
+}
+#div11 h2{
+  font-size: 20px;
+  color: white;
+  padding-left: 80px;
+}
+#div11 p{
+  font-size: 30px;
+  color: white;
+  padding-left: 80px;
+}
+#div11 h4{
+  color: white;
+  padding-left: 80px;
+}
+#div11 h5{
+  font-size: 20px;
+  color: white;
+  padding-left: 80px;
+}
+#div11 a{
+  text-decoration: none;
+  color: white;
+
+}
+#div11 a:hover {
+  color: #00A36C;
+}
+#div12{
+  padding-top: 215px;
+
+}
+#div12 h2{
+  font-size: 20px;
+  color: white;
+  padding-left: 400px;
+}
+#div12 p{
+  font-size: 30px;
+  color: white;
+  padding-left: 400px;
+}
+#div12 h4{
+  color: white;
+  padding-left: 400px;
+}
+#div12 h5{
+  font-size: 20px;
+  color: white;
+  padding-left: 400px;
+}
+#div12 a{
+  text-decoration: none;
+  color: white;
+}
+#div12 a:hover {
+  color: #00A36C;
+}
